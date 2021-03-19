@@ -18,16 +18,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws IOException {
-//        String javaVersion = System.getProperty("java.version");
-//        String javafxVersion = System.getProperty("javafx.version");
-//        Label l = new Label("Hello, JavaFX " + javafxVersion + ", running on Java " + javaVersion + ".");
-//        Label l2 = new Label("Hello, world");
-//        VBox root = new VBox(l, l2);
-////        Scene scene = new Scene(new StackPane(root), 640, 480);
-//        Scene scene = new Scene (root, 640, 480);
-////        ((StackPane)scene.getRoot()).getChildren().add(l2);
-//        stage.setScene(scene);
-//        stage.show();
+
     	
     	  Parent root = FXMLLoader.load(getClass().getResource("viewsandcontrollers/main/Main.fxml"));
           Scene scene = new Scene(root);
